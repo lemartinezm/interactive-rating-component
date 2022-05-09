@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.App {
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Rating-Box {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 19%, 18%);
+  height: 21rem;
+  width: 21rem;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.Rating-Buttons {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
