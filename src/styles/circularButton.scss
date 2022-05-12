@@ -1,0 +1,42 @@
+.Circular-Button {
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 25%);
+  font-size: 15px;
+  font-family: Overpass;
+  font-weight: 400;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Circular-Button-Over {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  font-size: 15px;
+  font-family: Overpass;
+  font-weight: 400;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Circular-Button-Selected {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 12%, 54%);
+  font-size: 15px;
+  font-family: Overpass;
+  font-weight: 400;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

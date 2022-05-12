@@ -1,0 +1,21 @@
+.Thank-Container {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(213, 19%, 18%);
+  height: 21rem;
+  width: 21rem;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Value-Selected-Box {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 25%);
+  border-radius: 25px;
+  width: auto;
+  padding: 0.5rem 1rem;
+}
