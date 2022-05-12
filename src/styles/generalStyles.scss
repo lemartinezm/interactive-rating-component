@@ -1,0 +1,46 @@
+// Variables
+$primary-color: hsl(25, 97%, 53%);
+$white: hsl(0, 0%, 100%);
+$bg-color: hsl(216, 12%, 8%);
+$bg-container: hsl(213, 19%, 18%);
+$bg-circle-button: hsl(213, 19%, 25%);
+$bg-circle-selected: hsl(216, 12%, 54%);
+$text-secondary: hsl(217, 12%, 63%);
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  color: hsl(0, 0%, 100%);
+  background-color: $bg-container;
+  height: 24rem;
+  width: 24rem;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.Title {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 20px auto
+}
+
+.Body {
+  color: $text-secondary;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 150%;
+}

@@ -9,7 +9,10 @@ type CircularButtonProps = {
   disabled: Boolean
 }
 
-const CircularButton = ({ children, ratingElement, selectValue, disabled }: CircularButtonProps) => {
+const CircularButton = ({ children,
+  ratingElement,
+  selectValue,
+  disabled }: CircularButtonProps) => {
 
   const [over, setOver] = useState(false);
 
@@ -26,7 +29,13 @@ const CircularButton = ({ children, ratingElement, selectValue, disabled }: Circ
   } else {
     return (
       <div
-        className={over ? "Circular-Button-Over" : ratingElement?.isSelected ? "Circular-Button-Selected" : "Circular-Button"}
+        className={over ?
+          "Circular-Button-Over"
+          :
+          ratingElement?.isSelected ?
+            "Circular-Button-Selected"
+            :
+            "Circular-Button"}
         onMouseOver={() => setOver(true)}
         onMouseLeave={() => setOver(false)}
         onClick={() => selectValue!(ratingElement)}
